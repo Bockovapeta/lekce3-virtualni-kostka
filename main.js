@@ -56,12 +56,12 @@ hodkostky - když chceme, aby nám nevyšlo číslo 0*6, což je vždycyky 0, ta
 Math.floor(Math.random() * 6 + 1);
 */
 
-let kostka = document.querySelector('#kostka');
-let zprava = document.querySelector('#zprava');
 
 
 function hodKostkou() {
     let cislo = Math.floor(Math.random() * 6 + 1);
+    let kostka = document.querySelector('#kostka');
+    let zprava = document.querySelector('#zprava');
 
 
     if (cislo === 6) {
